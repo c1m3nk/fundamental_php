@@ -7,7 +7,9 @@
 </head>
 <body>
     <?php
-    echo "hello world masih uji coba";
+    $cuan = "sakmene cah";
+
+    echo "duwek ku" .$var1."<br/>";
 
     
     ?>
