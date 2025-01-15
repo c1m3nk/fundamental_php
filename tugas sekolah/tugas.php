@@ -1,5 +1,8 @@
 <?php 
 
+echo "TUGAS SEKOLAH TOTAL GAJI KARYAWAN <br><br> ";
+
+
 define("gaji", 5000000);
 define("bonus", 500000);
 define("pajak", 0.12);
