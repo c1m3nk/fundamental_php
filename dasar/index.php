@@ -7,8 +7,11 @@
 </head>
 <body>
     <?php
-    $cuan = "sakmene cah";
-    echo "duwek ku" .$cuan."<br/>";
+    // $cuan = "sakmene cah";
+    // echo "duwek ku" .$cuan."<br/>";
+
+    define ("PHI", 3.14);
+    echo "luas lingkaran dengan jari jari 7 adalah" .PHI*7*7;
 
     
     ?>
