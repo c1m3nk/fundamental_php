@@ -9,7 +9,7 @@
     <?php
     $cuan = "sakmene cah";
 
-    echo "duwek ku" .$var1."<br/>";
+    echo "duwek ku" .$cuan."<br/>";
 
     
     ?>
