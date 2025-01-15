@@ -8,7 +8,7 @@
 <body>
     <?php
     $cuan = "sakmene cah";
-    echo "duwek ku" $cuan;
+    echo "duwek ku" .$cuan;
 
     
     ?>
