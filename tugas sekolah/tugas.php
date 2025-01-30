@@ -1,6 +1,6 @@
 <?php 
 
-echo "TUGAS SEKOLAH TOTAL GAJI KARYAWAN <br><br> ";
+echo "TOTAL GAJI KARYAWAN <br><br> ";
 
 
 define("gaji", 5000000);
