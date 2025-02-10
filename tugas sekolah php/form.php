@@ -15,7 +15,7 @@
 
     <p>
         <label>NISN    :
-        <input type="text" name="nisn" placeholder="nisn anda"></label>
+        <input type="number" name="nisn" placeholder="nisn anda"></label>
     </p>  
     <p>
         <label>NAMA LENGKAP    : 
@@ -87,19 +87,19 @@
     <label for="">
         pilih extra yang diminati
     </label>
-    <input type="checkbox" name="extra"  value="Pecinta Alam">Pecinta Alam
-    <input type="checkbox" name="extra" value="Dewan Ambalan">Dewan Ambalan
-    <input type="checkbox" name="extra" value="OSIS">OSIS 
-    <input type="checkbox" name="extra" value="Gerakan Disiplin Sekolah">Gerakan Disiplin Sekolah
-    <input type="checkbox" name="extra" value="Laskar Hijau">Laskar Hijau 
-    <input type="checkbox" name="extra" value=PMR>PMR
-    <input type="checkbox" name="extra" value="Remaja Masjid">Remaja Masjid
-    <input type="checkbox" name="extra" value="Teater Kusuma">Teater Kusuma
-    <input type="checkbox" name="extra" value="Voli">Voli
-    <input type="checkbox" name="extra" value="Basket">Basket
-    <input type="checkbox" name="extra" value="Futsal">Futsal
-    <input type="checkbox" name="extra" value="Paskibra">Paskibra
-    <input type="checkbox" name="extra" value="englishclub">englishclub
+    <input type="checkbox" name="extra[]"  value="Pecinta Alam">Pecinta Alam
+    <input type="checkbox" name="extra[]" value="Dewan Ambalan">Dewan Ambalan
+    <input type="checkbox" name="extra[]" value="OSIS">OSIS 
+    <input type="checkbox" name="extra[]" value="Gerakan Disiplin Sekolah">Gerakan Disiplin Sekolah
+    <input type="checkbox" name="extra[]" value="Laskar Hijau">Laskar Hijau 
+    <input type="checkbox" name="extra[]" value=PMR>PMR
+    <input type="checkbox" name="extra[]" value="Remaja Masjid">Remaja Masjid
+    <input type="checkbox" name="extra[]" value="Teater Kusuma">Teater Kusuma
+    <input type="checkbox" name="extra[]" value="Voli">Voli
+    <input type="checkbox" name="extra[]" value="Basket">Basket
+    <input type="checkbox" name="extra[]" value="Futsal">Futsal
+    <input type="checkbox" name="extra[]" value="Paskibra">Paskibra
+    <input type="checkbox" name="extra[]" value="englishclub">englishclub
     </p>
     <p>
         <input type="submit" name="submit" value="Daftar">
