@@ -24,7 +24,7 @@
 <body>
 
     <?php
-    if(isset($_POST["FORMULIR PENDAFTARAN"]))
+    if(isset($_POST["submit"]))
     ?>
 
     <table border=1 style="border-colaapse : collapse; width : 50% "> 
