@@ -15,9 +15,9 @@
     margin-top:30px;
    }
         
-        td{
-            padding: 1em;
-        }
+    td{
+         padding: 1em;
+    }
 
 </style>
 <body>

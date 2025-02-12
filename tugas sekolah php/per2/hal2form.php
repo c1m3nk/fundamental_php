@@ -7,25 +7,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
 
-table {
-        position: relative;
-        /* max-width: 100rem;
-        margin-top: 150px;
-        margin-bottom:150px; */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top:30px;
+    margin-bottom:30px;
+    
+   }
 
-    form {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    td {
-        padding: 1em;
-    }
+td{
+    padding: 1em;
+}
     
     </style>
 
