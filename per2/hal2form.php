@@ -43,7 +43,7 @@ td{
         <td>NAMA LENGKAP</td>
         <td>:</td>
         <td>
-        <?= $_POST["nama"] ?>
+            <?= $_POST["nama"] ?>
         </td>
     </tr>
 
@@ -51,7 +51,7 @@ td{
         <td>TEMPAT LAHIR</td>
         <td>:</td>
         <td>
-        <?= $_POST["tempatlahir"] ?>
+            <?= $_POST["tempatlahir"] ?>
         </td>
     </tr>
     
@@ -59,7 +59,7 @@ td{
         <td>TANGGAL LAHIR</td>
         <td>:</td>
         <td>
-        <?= $_POST["tanggal"] ?>
+            <?= $_POST["tanggal"] ?>
         </td>
     </tr>
 
@@ -67,7 +67,7 @@ td{
         <td>GENDER</td>
         <td>:</td>
         <td>
-        <?= $_POST["gender"] ?>
+            <?= $_POST["gender"] ?>
         </td>
     </tr>
 
@@ -83,7 +83,7 @@ td{
         <td>ALAMAT RUMAH</td>
         <td>:</td>
         <td>
-        <?= $_POST["alamatrumah"] ?>
+            <?= $_POST["alamatrumah"] ?>
         </td>
     </tr>
 
@@ -91,7 +91,7 @@ td{
         <td>ASAL SEKOLAH</td>
         <td>:</td>
         <td>
-        <?= $_POST["asalsekolah"] ?>
+            <?= $_POST["asalsekolah"] ?>
         </td>
     </tr>
 
@@ -99,7 +99,7 @@ td{
         <td>JURUSAN 1</td>
         <td>:</td>
         <td>
-        <?= $_POST["pilihjurusan1"] ?>
+            <?= $_POST["pilihjurusan1"] ?>
         </td>
     </tr>
     
@@ -107,7 +107,7 @@ td{
         <td>JURUSAN 2</td>
         <td>:</td>
         <td>
-        <?= $_POST["pilihjurusan2"] ?>
+            <?= $_POST["pilihjurusan2"] ?>
         </td>
     </tr>
 
@@ -115,7 +115,7 @@ td{
         <td>EKSKUL</td>
 
         <td>:</td>
-        <td><?=implode(",",$_POST["extra"]); ?>
+            <td><?=implode(",",$_POST["extra"]); ?>
         </td>
     </tr>
 
