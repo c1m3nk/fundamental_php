@@ -29,10 +29,12 @@
      <form action="hal2gaji.php" method="post">
             <table border="1" style="border-collapse : collapse; width : 50%;" >
         <?php if (isset($_POST['cek'])) {
+
             $gajiBulanan = floatval($_POST['gaji']);
             $npwp = $_POST['npwp'];
             $gajitahunan = $gajiBulanan * 12;
             $potonganpajak = 0;
+
             if ($gajitahunan > 54000000) {
                 if ($npwp == "Ya") {
                     $potonganpajak = $gajitahunan * 0.15;
@@ -40,9 +42,11 @@
                     $potonganpajak = $gajitahunan * 0.20;
                 }
             }
+
             $gajiBersihBulanan = ($gajitahunan - $potonganpajak) /12;
             $potonganpajakbulanan = $potonganpajak /12;
             $gajikotorbulanan = $gajitahunan /12;
+            
         } ?>
                 <tr>
                     <td>NAMA KARYAWAN</td>
