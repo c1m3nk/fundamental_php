@@ -12,8 +12,13 @@
     display: flex;
     justify-content: center;
     align-items:center;
-    margin-top:30px;
+    margin-top:50px;
    }
+
+   table {
+        
+        box-shadow: 0px 0px 10px 10px rgba(7, 81, 94, 0.5);
+    }
         
     td{
          padding: 1em;
@@ -21,11 +26,9 @@
 
 </style>
 <body>
-       
-    <div class="container">
-        <form action="Tugas3Halaman2.php" method="post">
+     <form action="hal2gaji.php" method="post">
             <table border="1" style="border-collapse : collapse; width : 50%;" >
- <?php if (isset($_POST['cek'])) {
+        <?php if (isset($_POST['cek'])) {
             $gajiBulanan = floatval($_POST['gaji']);
             $npwp = $_POST['npwp'];
             $gajitahunan = $gajiBulanan * 12;
@@ -67,14 +70,9 @@
                 </tr>
                 
                 <tr>
-                    <td>POTONGAN PAJAK PERTAHUN</td>
+                    <td>POTONGAN PAJAK </td>
                     <td>:</td>
                     <td>Rp.<?= number_format($potonganpajak,0,',','.')?></td>
-                </tr>
-                <tr>
-                    <td>POTONGAN PAJAK PERBULAN</td>
-                    <td>:</td>
-                    <td>Rp.<?= number_format($potonganpajakbulanan,0,',','.')?></td>
                 </tr>
                 <tr>
                     <td>GAJI BERSIH PERBULAN</td>
@@ -83,7 +81,6 @@
                 </tr>
             </table>
         </form>
-    </div>
  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

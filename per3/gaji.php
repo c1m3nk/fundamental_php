@@ -9,25 +9,43 @@
 
 <style>
     
-   form{
+form{
     display: flex;
     justify-content: center;
     align-items:center;
     margin-top:30px;
-   }
+}
+
+.pt h2{
+        text-align: center;
+        font-size: 50px;
+        margin-top:30px;
+        color: #003161;
+    }
+    .pt h2 span {
+        color: #006A67;
+    }
         
-        td{
-            padding: 1em;
-        }
+td{
+    padding: 1em;
+}
 
-        .tombol{
+table {
+        
+        box-shadow: 10px 10px 10px rgba(7, 94, 72, 0.5);
+    }
 
-            display: absolute;
-            text-align: end;
-        }
+.tombol{
+    display: absolute;
+    text-align: end;
+}
 </style>
 
 <body>
+
+<div class="pt">
+        <h2>Cv.Tecno<span>Bangsa</span></h2>
+    </div>
 
  <form action="hal2gaji.php" method="post">
  <table border=1 style="border-colaapse : collapse; width : 50% "> 
@@ -58,13 +76,13 @@
     <td>:</td>
     <td>
     <div class="form-check">
-        <input class="form-check-input" type="radio" name="npwp" id="flexRadioDefault1" value="Ya">
-        <label class="form-check-label" for="flexRadioDefault1"> YA
+            <input class="form-check-input" type="radio" name="npwp" id="flexRadioDefault1" value="Ya">
+            <label class="form-check-label" for="flexRadioDefault1"> YA
         </label>
     </div>
         <div class="form-check">
-        <input class="form-check-input" type="radio" name="npwp" id="flexRadioDefault1" value="Tidak">
-        <label class="form-check-label" for="flexRadioDefault1"> TIDAK
+            <input class="form-check-input" type="radio" name="npwp" id="flexRadioDefault1" value="Tidak">
+            <label class="form-check-label" for="flexRadioDefault1"> TIDAK
         </label>
     </div>
 </tr>
@@ -73,7 +91,7 @@
         <td> </td>
         <td> </td>
         <td class="tombol">
-        <button type="submit" class="btn btn-outline-dark" name="cek">KIRIM</button>
+            <button type="submit" class="btn btn-outline-dark" name="cek">KIRIM</button>
         </td>
     </tr>
 
