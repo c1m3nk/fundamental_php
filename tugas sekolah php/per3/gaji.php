@@ -64,7 +64,7 @@
     </div>
         <div class="form-check">
         <input class="form-check-input" type="radio" name="npwp" id="flexRadioDefault1" value="Tidak">
-        <label class="form-check-label" for="flexRadioDefault1">TIDAK
+        <label class="form-check-label" for="flexRadioDefault1"> TIDAK
         </label>
     </div>
 </tr>
