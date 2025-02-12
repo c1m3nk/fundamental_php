@@ -111,20 +111,20 @@
                 <td><input type="text" class="form-control" name="asalsekolah" id=""></td>
             </tr>
             <tr>
-                <td>PILIHAN JURUSAN1</td>
+                <td>JURUSAN 1</td>
                 <td>:</td>
                 <td>
                     <select name="pilihjurusan1" id="" class="form-select" aria-label="Default select example">
-                        <option value="pplg">PENEGEMBANGAN PERANGKAT LUNAK DAN GAME</option>
-                        <option value="akl">AKUTANSI DAN KEUANGAN LEMBAGA</option>
-                        <option value="mplb">MANAJEMEN PERKANTORAN DAN LAYANAN BISNIS</option>
-                        <option value="pm">PEMASARAN</option>
-                        <option value="tjkt">TEKNIK JARINGAN KOMPUTER DAN TELEKOMUNIKASI</option>
-                        <option value="bdp">BROADCASTING DAN PERFILMAN</option>
-                        <option value="dkv">DESAIN KOMUNIKASI VISUAL</option>
-                        <option value="sp">SENI PERTUNJUKAN</option>
-                        <option value="ph">PERHOTELAN</option>
-                        <option value="kl">KULINER</option>
+                        <option value="PPLG">PENEGEMBANGAN PERANGKAT LUNAK DAN GAME</option>
+                        <option value="AKL">AKUTANSI DAN KEUANGAN LEMBAGA</option>
+                        <option value="MPLB">MANAJEMEN PERKANTORAN DAN LAYANAN BISNIS</option>
+                        <option value="PM">PEMASARAN</option>
+                        <option value="TJKT">TEKNIK JARINGAN KOMPUTER DAN TELEKOMUNIKASI</option>
+                        <option value="BDP">BROADCASTING DAN PERFILMAN</option>
+                        <option value="DKV">DESAIN KOMUNIKASI VISUAL</option>
+                        <option value="SP">SENI PERTUNJUKAN</option>
+                        <option value="PH">PERHOTELAN</option>
+                        <option value="KL">KULINER</option>
                         <option value="PENEGEMBANGAN PERANGKAT LUNAK DAN GAME">PENEGEMBANGAN PERANGKAT LUNAK DAN GAME</option>
                         <option value="AKUTANSI DAN KEUANGAN LEMBAGA">AKUTANSI DAN KEUANGAN LEMBAGA</option>
                         <option value="MANAJEMEN PERKANTORAN DAN LAYANAN BISNIS">MANAJEMEN PERKANTORAN DAN LAYANAN BISNIS</option>
@@ -139,20 +139,20 @@
                 </td>
             </tr>
             <tr>
-                <td>PILIHAN JURUSAN2</td>
+                <td>JURUSAN 2</td>
                 <td>:</td>
                 <td>
                     <select name="pilihjurusan2" id="" class="form-select" aria-label="Default select example">
-                        <option value="pplg">PENEGEMBANGAN PERANGKAT LUNAK DAN GAME</option>
-                        <option value="akl">AKUTANSI DAN KEUANGAN LEMBAGA</option>
-                        <option value="mplb">MANAJEMEN PERKANTORAN DAN LAYANAN BISNIS</option>
-                        <option value="pm">PEMASARAN</option>
-                        <option value="tjkt">TEKNIK JARINGAN KOMPUTER DAN TELEKOMUNIKASI</option>
-                        <option value="bdp">BROADCASTING DAN PERFILMAN</option>
-                        <option value="dkv">DESAIN KOMUNIKASI VISUAL</option>
-                        <option value="sp">SENI PERTUNJUKAN</option>
-                        <option value="ph">PERHOTELAN</option>
-                        <option value="kl">KULINER</option>
+                    <option value="PPLG">PENEGEMBANGAN PERANGKAT LUNAK DAN GAME</option>
+                        <option value="AKL">AKUTANSI DAN KEUANGAN LEMBAGA</option>
+                        <option value="MPLB">MANAJEMEN PERKANTORAN DAN LAYANAN BISNIS</option>
+                        <option value="PM">PEMASARAN</option>
+                        <option value="TJKT">TEKNIK JARINGAN KOMPUTER DAN TELEKOMUNIKASI</option>
+                        <option value="BDP">BROADCASTING DAN PERFILMAN</option>
+                        <option value="DKV">DESAIN KOMUNIKASI VISUAL</option>
+                        <option value="SP">SENI PERTUNJUKAN</option>
+                        <option value="PH">PERHOTELAN</option>
+                        <option value="KL">KULINER</option>
                         <option value="PENEGEMBANGAN PERANGKAT LUNAK DAN GAME">PENEGEMBANGAN PERANGKAT LUNAK DAN GAME</option>
                         <option value="AKUTANSI DAN KEUANGAN LEMBAGA">AKUTANSI DAN KEUANGAN LEMBAGA</option>
                         <option value="MANAJEMEN PERKANTORAN DAN LAYANAN BISNIS">MANAJEMEN PERKANTORAN DAN LAYANAN BISNIS</option>
