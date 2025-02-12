@@ -44,18 +44,18 @@
                 <tr>
                     <td>NAMA KARYAWAN</td>
                     <td>:</td>
-                    <td><?= $_POST['nama']?></td>
+                    <td><?= $_POST["nama"]?></td>
                 </tr>
                 <tr>
                     <td>DIVISI</td>
                     <td>:</td>
-                    <td><?= $_POST['divisi']?></td>
+                    <td><?= $_POST["divisi"]?></td>
                 </tr> 
                 <tr>
                     <td>NPWP</td>
                     <td>:</td>
                     <td>
-                    <?= $_POST['npwp']?>
+                    <?= $_POST["npwp"]?>
                     </td>
                 </tr>
                 <tr>

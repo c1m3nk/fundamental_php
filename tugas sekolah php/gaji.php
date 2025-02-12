@@ -36,21 +36,21 @@
     <td>NAMA KARYAWAN</td>
     <td>:</td>
     <td>
-        <input type="text" class="form-control" name="nama" id="nama">
+        <input type="text" class="form-control" name="nama" id="">
     </td>
 </tr>
 <tr>
     <td>DIVISI</td>
     <td>:</td>
     <td>
-        <input type="text" class="form-control" name="divisi" id="divisi"> 
+        <input type="text" class="form-control" name="divisi" id=""> 
     </td>
 </tr>
 <tr>
     <td>GAJI</td>
     <td>:</td>
     <td>
-        <input type="number" class="form-control" name="gaji" id="gaji">
+        <input type="number" class="form-control" name="gaji" id="">
     </td>
 </tr>
 <tr>
