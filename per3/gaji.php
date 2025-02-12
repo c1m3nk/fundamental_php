@@ -43,7 +43,7 @@
 
 <body>
     <div class="pt">
-        <h2>Cv.Tecno<span>Bangsa</span></h2>
+        <h2>Cv.Tecno<span>Nusa</span></h2>
     </div>
 
     <form action="hal2gaji.php" method="post">
