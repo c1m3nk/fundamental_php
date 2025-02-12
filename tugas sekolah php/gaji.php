@@ -36,21 +36,21 @@
     <td>NAMA KARYAWAN</td>
     <td>:</td>
     <td>
-        <input type="text" class="form-control" name="nama">
+        <input type="text" class="form-control" name="nama" id="nama">
     </td>
 </tr>
 <tr>
     <td>DIVISI</td>
     <td>:</td>
     <td>
-        <input type="text" class="form-control" name="divisi"> 
+        <input type="text" class="form-control" name="divisi" id="divisi"> 
     </td>
 </tr>
 <tr>
     <td>GAJI</td>
     <td>:</td>
     <td>
-        <input type="number" class="form-control" name="gaji">
+        <input type="number" class="form-control" name="gaji" id="gaji">
     </td>
 </tr>
 <tr>
@@ -58,12 +58,12 @@
     <td>:</td>
     <td>
     <div class="form-check">
-        <input class="form-check-input" type="radio" name="npwp" id="flexRadioDefault1">
+        <input class="form-check-input" type="radio" name="npwp" id="flexRadioDefault1" value="Ya">
         <label class="form-check-label" for="flexRadioDefault1"> YA
         </label>
     </div>
         <div class="form-check">
-        <input class="form-check-input" type="radio" name="npwp" id="flexRadioDefault1">
+        <input class="form-check-input" type="radio" name="npwp" id="flexRadioDefault1" value="Tidak">
         <label class="form-check-label" for="flexRadioDefault1">TIDAK
         </label>
     </div>
