@@ -29,7 +29,7 @@
         }
 
         table {
-            box-shadow: 10px 10px 10px rgba(7, 94, 72, 0.5);
+            box-shadow: 10px 10px 10px rgba(16, 7, 94, 0.5);
             border-collapse: collapse;
             width: 50%;
         }

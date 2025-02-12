@@ -17,7 +17,7 @@
 
    table {
         
-        box-shadow: 0px 0px 10px 10px rgba(7, 81, 94, 0.5);
+        box-shadow: 0px 0px 10px 10px rgba(7, 13, 94, 0.5);
     }
         
     td{
@@ -46,7 +46,7 @@
             $gajiBersihBulanan = ($gajitahunan - $potonganpajak) /12;
             $potonganpajakbulanan = $potonganpajak /12;
             $gajikotorbulanan = $gajitahunan /12;
-            
+
         } ?>
                 <tr>
                     <td>NAMA KARYAWAN</td>
