@@ -32,30 +32,28 @@
     <?php
         if(isset($_POST["jalan"])){
         $baris = $_POST["baris"] ;
-        $kolom = $_POST["kolom"] ;
-
-        
-        ?>
-         <table border=1 style="width:75%;">
-                <?php
-                    for($i=1; $i <= $baris; $i++) {
-                ?>
-                <tr>
-                    <?php
-                        for($y = 1; $y <= $kolom; $y++) {
-                    ?>
-                        <td>
-                                baris = <?= $i ?> ; kolom = <?= $y ?> 
-                        </td>
-                    <?php
-                            }
-                    ?>
-                </tr>
-                <?php } ?>
-            </table>
-    <?php
-        }
+        $kolom = $_POST["kolom"] ;  
     ?>
+
+    <table border=1 style="width:50%;">
+        <?php
+            for($i=1; $i <= $baris; $i++) {
+        ?>
+        <tr>
+            <?php
+                for($y = 1; $y <= $kolom; $y++) {
+            ?>
+            <td>
+             baris = <?= $i ?> ; kolom = <?= $y ?> 
+            </td>
+            <?php } ?>
+        </tr>
+
+            <?php } ?>
+
+        </table>
+
+    <?php }?>
 
 
         
